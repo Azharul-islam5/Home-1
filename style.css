@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+
+}
+body{
+background-color:#1C1E53 ;
+font-family: montserrat;
+
+}
+nav{
+    background: #1C1E53;
+    height: 92;
+    width:1600;
+}
+label.logo{
+    color: white;
+    margin-left: 25px;
+    margin-right: -40px;
+    font-size: 25px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    
+}
+nav ul{
+   
+    float: right;
+    margin-right: 80px;
+    margin-left: 45px;
+    
+}
+nav ul li{
+    
+    display: inline-block;
+    line-height: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 20px;
+    margin-left: 60px;
+    
+}
+nav ul li a{
+    
+    color: white;
+    font-size: 15px;
+}
+.btn{
+    position: absolute;
+    left: 90%;
+    width: 185px;
+    Height: 60px;
+    Top: 16px;
+    
+    right: 10%;
+    left: px;
+    top: 1.39%;
+    bottom: 12.39%;
+    gap: ;
+    color: white;
+    margin-right: 90px;
+    margin-left: -25px;
+    background: #1C1E53;
+    border-radius: 300px
+   
+  }
+  
+ section body{
+    background-color: #1C1E53;
+ }
+ section h1 {
+    position: absolute;
+    width: 582px;
+    height: 222px;
+    right: 858px;
+    top: 218px;
+    left: 120px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 80px;
+    color: white;
+}
+section p{
+    position: absolute;
+    width: 562px;
+    height: 56px;
+    right: 878px;
+    top: 464px;
+    left: 120px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-right: 10px;
+}
+.tap{
+    position: absolute;
+width: 230px;
+height: 64px;
+right: 1210px;
+left: 120px;
+gap: 10px;
+top: 568px;
+background: #FCD980;
+border-radius: 41px
+}
+.arrow button{
+    position: absolute;
+width: 138px;
+height: 28px;
+left: 430px;
+top: 586px;
+
+}
+.text{
+    position: absolute;
+width: 138px;
+height: 28px;
+left: 380px;
+top: 586px;
+color: #F4F6FC;
+}
+.illustration-container{
+    position: absolute;
+    
+width: 638px;
+height: 361.12px;
+left: 802px;
+top: 241px;
+border: 2px solid #FFFFFF
+opacity: 0.7;
+margin-left: 10px;
+margin-right: ;
+}
+
+@media only screen and (max-width: 600px) {
+    /* CSS for screens smaller than 600px */
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1200px) {
+    /* CSS for screens between 601px and 1200px */
+  }
+  
+  @media only screen and (min-width: 1201px) {
+    /* CSS for screens larger than 1201px */
+  }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex: 1 1 300px; /* Adjust the width of the box here */
+  margin: 10px;
+}
